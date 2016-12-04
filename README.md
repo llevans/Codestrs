@@ -45,7 +45,8 @@
           * Update the code at line 29 to rotate the bike position inside a for loop
           * Click Play
 
-       * Assignment – Update the codestrs_jump_onenter_assign Python script with a for loop
+    * Make the bike jump when the Enter key is clicked
+       * Assignment – Update the codestrs_jump_onenter_assign Python script with to handle the "Enter" key event
           * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_jump_onenter_assign.py
           * Update the code at line 38 to 
                * retain the bike’s current X, Y position
