@@ -1,3 +1,12 @@
+#####################################################################################
+#  Name : codestrs_flip_forloop_assign.py                                           # 
+#  Date : Dec 4, 2016                                                               # 
+#  Description : Render a bike sprite using the Codestrs online Python interpreter  # 
+#                Move the bike forward at the Righ Arrow click event                # 
+#                Assignment to convert logic that flips the bike backwards          #
+*                360 degrees at the Left Arrow click event to a Python for loop     # 
+#####################################################################################
+
 import time
 
 stage.set_background("grid")

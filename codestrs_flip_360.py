@@ -1,3 +1,11 @@
+#####################################################################################
+#  Name : codestrs_flip_360.py                                                      # 
+#  Date : Dec 4, 2016                                                               # 
+#  Description : Render a bike sprite using the Codestrs online Python interpreter  # 
+#                Move the bike forward at the Righ Arrow click event                # 
+#                Flip the bike backwards 360 degrees at the Left Arrow click event  # 
+#####################################################################################
+
 import time
 
 stage.set_background("grid")

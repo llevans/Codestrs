@@ -1,3 +1,12 @@
+
+#######################################################################################
+#  Name : codestrs_jump_onupkey_assign.py                                             # 
+#  Date : Dec 4, 2016                                                                 # 
+#  Description : Render a bike sprite using the Codestrs online Python interpreter    # 
+#                Move the bike forward at the Righ Arrow click event                  # 
+#                Solution to have the bike jump upwards at the Up Arrow click event   #
+*                                                                                     #   
+#######################################################################################
 import time
 
 stage.set_background("grid")

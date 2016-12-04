@@ -1,3 +1,10 @@
+#####################################################################################
+#  Name : codestrs_grid.py                                                          # 
+#  Date : Dec 4, 2016                                                               # 
+#  Description : Render a bike sprite using the Codestrs online Python interpreter  # 
+#                Move the bike forward at the Righ Arrow click event                # 
+#####################################################################################
+
 stage.set_background("grid")
 sprite = codesters.Sprite("bike")
 sprite.set_size(0.4)
