@@ -32,22 +32,22 @@
     * Basic Grid
        * Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
        * Click Play
-       * Click the space bar – the keyboard event triggers the bike to start and stop pedalling
+       * Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
 
-    * Flip the bike 360 degrees when the Up arrow is clicked
+    * Flip the bike 360 degrees when the Left Arrow is clicked
        * Copy codestrs_flip_360.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_360.py
        * Click Play
-          * Click the “Space Bar” – the keyboard event triggers the bike to start and stop pedalling
-          * Click the “Up” arrow – the keyboard event triggers the bike the flip
+          * Click the “Right Arrow” – the keyboard event triggers the bike to start and stop pedalling
+          * Click the “Left Arrow" – the keyboard event triggers the bike the flip
 
-       * Assignment – Update the codestrs_flip_forloop_assign Python script with a for loop
+       * Assignment – Update the codestrs_flip_forloop_assign Python script to calculate the rotation in a for loop
           * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_forloop_assign.py
           * Update the code at line 29 to rotate the bike position inside a for loop
           * Click Play
 
-    * Make the bike jump when the Enter key is clicked
-       * Assignment – Update the codestrs_jump_onenter_assign Python script with to handle the "Enter" key event
-          * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_jump_onenter_assign.py
+    * Make the bike jump when the "Up Arrow" key is clicked
+       * Assignment – Update the codestrs_jump_onupkey_assign Python script with to handle the "Up Arrow" key event
+          * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_jump_onupkey_assign.py
           * Update the code at line 38 to 
                * retain the bike’s current X, Y position
                * call the sprint jump() API method
