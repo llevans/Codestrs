@@ -36,12 +36,14 @@ stage.event_key("up", handle_flip)
 # Make the bike jump vertically when the Enter key is clicked
 def handle_jump():
     # Deterime the bicycle's x and y position (like lines 18,19)
-
+    x = sprite.get_x()
+    y = sprite.get_y()
     # Call the jump method from the Sprite API
-
+    sprite.jump(4) 
     # Delay the program for 3/10 seconds
-
+    time.sleep(.5)
     # Move the bike back to it's original position (line 20)
+    sprite.go_to(x, y)
 
 stage.event_enter_key(handle_jump)
 

@@ -9,7 +9,7 @@ sprite.set_gravity_off()
 
 click_counter = 0
 
-def handle_space_key():
+def handle_pedal():
     global click_counter
     click_counter = click_counter + 1
     if click_counter % 2 != 0:
@@ -20,7 +20,7 @@ def handle_space_key():
         sprite.go_to(x, y)
     # add other actions...
 
-stage.event_space_key(handle_space_key)
+stage.event_right_key(handle_pedal)
 
 # Problem :
 # Turn the bike's rotation at a 45 degree angle in a for loop
@@ -43,7 +43,7 @@ def handle_flip():
     time.sleep(.4)
     sprite.set_rotation(360)
     
-stage.event_key("up", handle_flip)
+stage.event_key("left", handle_flip)
 
 
 

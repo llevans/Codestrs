@@ -22,7 +22,7 @@ def handle_pedal():
         sprite.go_to(x, y)
     # add other actions...
 
-stage.event_space_key(handle_pedal)
+stage.event_right_key(handle_pedal)
 
 
 

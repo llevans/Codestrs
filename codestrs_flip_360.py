@@ -20,7 +20,7 @@ def handle_pedal():
         sprite.go_to(x, y)
     # add other actions...
 
-stage.event_space_key(handle_pedal)
+stage.event_right_key(handle_pedal)
 
 
 def handle_flip():
@@ -40,7 +40,7 @@ def handle_flip():
     time.sleep(.4)
     sprite.set_rotation(360)
     
-stage.event_key("up", handle_flip)
+stage.event_key("left", handle_flip)
 
 
 
