@@ -28,9 +28,8 @@
        * sprite = codestrs.Sprite(“fish”)
     * Click Play
 
-**Start coding!!**
-
 4. Basic Grid
+       * **Start coding!!**
        * 4a. Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
        * 4b. Click Play
        * 4c. Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
