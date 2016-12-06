@@ -28,33 +28,34 @@
        * sprite = codestrs.Sprite(“fish”)
     * Click Play
 
-  * **Start coding!!**
-    4. Basic Grid
-       2a. Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
-       2b. Click Play
-       2c. Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
+**Start coding!!**
 
-    5. Flip the bike 360 degrees when the Left Arrow is clicked
-       5a. Copy codestrs_flip_360.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_360.py
-       5b. Click Play
+4. Basic Grid
+       * 4a. Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
+       * 4b. Click Play
+       * 4c. Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
+
+5. Flip the bike 360 degrees when the Left Arrow is clicked
+       * 5a. Copy codestrs_flip_360.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_360.py
+       * 5b. Click Play
           * Click the “Right Arrow” – the keyboard event triggers the bike to start and stop pedalling
           * Click the “Left Arrow" – the keyboard event triggers the bike the flip
 
-       5c. Assignment – Update the codestrs_flip_forloop_assign Python script to calculate the rotation in a for loop
-          * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_forloop_assign.py
-          * Update the code at line 29 to rotate the bike position inside a for loop
-          * Click Play
+       * Assignment – Update the codestrs_flip_forloop_assign Python script to calculate the rotation in a for loop
+          * 5c. Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_forloop_assign.py
+          * 5d. Update the code at line 29 to rotate the bike position inside a for loop
+          * 5e. Click Play
 
-    6. Make the Flappy Bike game more robust with user interacting with all 4 arrow keys
+6. Make the Flappy Bike game more robust with user interacting with all 4 arrow keys
        * Assignment – Update the codestrs_final_assign Python script with to handle the "Up Arrow" key event
-          * Copy  codestrs_final_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_final_assign.py
-          * Update the code to 
+          * 6a. Copy  codestrs_final_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_final_assign.py
+          * 6b. Update the code to 
                * set the y_speed when the Up arrow is clicked
                * set the y_speed when the Down arrow is clicked
                * set the x_speed when the Left arrow is clicked
 	       * set the x_speed when the Right arrow is clicked
 
-          * Click Play
+          * 6c. Click Play
 
 
 
