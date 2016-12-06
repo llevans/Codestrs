@@ -3,14 +3,14 @@
 										Dec 6, 2016
 
 
-  * Start the Bicycle game
+1. Start the Bicycle game
     * Go to link https://hourofcode.com/codestersflappybike
     * Press the Play button (green button with > icon)
     * Quickly press the space bar consecutively to keep the bicycle in the sky.
     * Play the game, a few seconds, to keep the bicycle from colliding into the blue rectangles.
     * Click the Stop button (red button with rectangle icon)
 
-  * Change the background to Underwater
+2. Change the background to Underwater
     * Click on STAGE Codestrs category in left hand menu
     * Highlight this line of code by double clicking
       * stage.set_background(“city”)
@@ -19,7 +19,7 @@
       * stage.set_background(“underwater”)
     * Click Play
 
-  * Change the background to a Fish
+3. Change the background to a Fish
     * Click on SPRITE Codestrs category in left hand menu
     * Highlight this line of code by double clicking
        * sprite = codestrs.Sprite(“bike”)
@@ -29,29 +29,31 @@
     * Click Play
 
   * **Start coding!!**
-    * Basic Grid
-       * Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
-       * Click Play
-       * Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
+    4. Basic Grid
+       2a. Copy the Python code into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_grid.py
+       2b. Click Play
+       2c. Click the Right Arrow – the keyboard event triggers the bike to start and stop pedalling
 
-    * Flip the bike 360 degrees when the Left Arrow is clicked
-       * Copy codestrs_flip_360.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_360.py
-       * Click Play
+    5. Flip the bike 360 degrees when the Left Arrow is clicked
+       5a. Copy codestrs_flip_360.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_360.py
+       5b. Click Play
           * Click the “Right Arrow” – the keyboard event triggers the bike to start and stop pedalling
           * Click the “Left Arrow" – the keyboard event triggers the bike the flip
 
-       * Assignment – Update the codestrs_flip_forloop_assign Python script to calculate the rotation in a for loop
+       5c. Assignment – Update the codestrs_flip_forloop_assign Python script to calculate the rotation in a for loop
           * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_flip_forloop_assign.py
           * Update the code at line 29 to rotate the bike position inside a for loop
           * Click Play
 
-    * Make the bike jump when the "Up Arrow" key is clicked
-       * Assignment – Update the codestrs_jump_onupkey_assign Python script with to handle the "Up Arrow" key event
-          * Copy  codestrs_flip_forloop_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_jump_onupkey_assign.py
-          * Update the code at line 38 to 
-               * retain the bike’s current X, Y position
-               * call the sprint jump() API method
-               * return the bike to it’s original position
+    6. Make the Flappy Bike game more robust with user interacting with all 4 arrow keys
+       * Assignment – Update the codestrs_final_assign Python script with to handle the "Up Arrow" key event
+          * Copy  codestrs_final_assign.py into your editor https://raw.githubusercontent.com/llevans/Codestrs/master/codestrs_final_assign.py
+          * Update the code to 
+               * set the y_speed when the Up arrow is clicked
+               * set the y_speed when the Down arrow is clicked
+               * set the x_speed when the Left arrow is clicked
+	       * set the x_speed when the Right arrow is clicked
+
           * Click Play
 
 
