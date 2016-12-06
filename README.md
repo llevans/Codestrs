@@ -76,6 +76,6 @@
       * Click Connect – Emulator
       * Click GO to connect the App Inventor Studio to the aiStarter
       * Add a Button
-         * Our project needs a button. Click and hold on the word "Button" in the palette. Drag your mouse over to the Viewer. Drop the button and a new button will appear on the Viewer.
-6.	
+        * Our project needs a button. Click and hold on the word "Button" in the palette. Drag your mouse over to the Viewer. Drop the button and a new button will appear on the Viewer.
+	
 
