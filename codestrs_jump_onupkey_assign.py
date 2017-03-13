@@ -4,7 +4,7 @@
 #  Description : Render a bike sprite using the Codestrs online Python interpreter    # 
 #                Move the bike forward at the Righ Arrow click event                  # 
 #                Assignment to have the bike jump upwards at the Up Arrow click event #
-*                                                                                     #   
+#                                                                                     #   
 #######################################################################################
 import time
 
